@@ -1,0 +1,683 @@
+
+/* --------------------------
+		GLOBAL SETTINGS 
+-----------------------------*/
+
+body{
+
+	color:#FECFB8;
+
+}
+
+a{
+	/*color:#fff !important;*/
+	text-decoration:none !important;
+	transition:0.4s ease-in;
+	font-size:1.4rem;
+}
+
+a:hover{
+	color:#CBBFCE !important;
+}
+
+
+
+a.button-style-1 {
+	color:black !important;
+	border:1px solid black;
+	padding:12px 12px;
+	text-transform:uppercase;
+	font-size:0.81rem;
+}
+
+p{
+	line-height: 2rem;
+}
+
+ul {
+	list-style:none !important;
+}
+
+
+
+.container-fluid{
+	padding-right:0px !important;
+	padding-left:0px !important;
+	overflow:hidden;
+}
+
+
+/* background-image */
+#background{
+	position:fixed;
+	z-index:-2;
+	top:1%;
+}
+
+
+/* navbar */
+
+#navbar{
+	margin-top:2rem;
+	margin-bottom:25rem;
+}
+
+.navbar-dark .navbar-brand{
+	color:#B094AD !important;
+}
+
+.navbar-nav a{
+	color:#87BA6E !important;
+	font-size:1.2rem;
+}
+.navbar-nav a:hover{
+	color:#6972A7 !important;
+}
+
+.navbar-nav li{
+	margin-left:20px;
+}
+
+.navbar-nav span a{
+	font-family: 'Dancing Script', cursive;
+}
+
+.bg-dark{
+	/*background-color:#B094AD !important;*/
+	background-color:transparent !important;
+}
+
+
+/* font-awesome */
+i{
+	color:black;
+	font-size:1.8rem;
+	margin-top:0.8rem;
+}
+
+
+/* button small screen for toggle */
+.navbar-toggler-icon{
+	filter:sepia(100) saturate(3000%) hue-rotate(210deg);
+}
+
+.navbar-toggler{
+	border:1px solid rgb(145,82,98) !important;
+}
+
+
+
+
+
+/* --------------------------
+		   INTRO
+-----------------------------*/
+#video{
+	width:100%;
+}
+
+#skip{
+
+	position
+}
+
+a#skip {
+
+	z-index:2;
+	color:#E3ED82 !important;
+	position:absolute;
+	top:80%;
+	left:20%;
+	font-size:3rem;
+	margin:0;
+	text-transform:uppercase;
+}
+
+/* --------------------------
+		   HEADER
+-----------------------------*/
+
+/*#carousel{
+	position:fixed;
+	z-index:-2;
+	top:1%;
+}*/
+
+
+/* logo */
+#logo-top{
+	background-color:#DDEFF2;
+	padding:20px 0px;
+
+}
+
+
+
+
+#main{
+	
+	overflow:hidden;
+	min-height:150vh;
+
+}
+
+
+
+
+
+/* --------------------------
+		PAGE ACCUEIL 
+-----------------------------*/
+
+#presentation-block{
+	
+	margin-top:0%;
+	padding-top:32px;
+	/*background-color:rgba(220,200,250, 0.7);*/
+	background-color:#FFE8DD;
+	color:black;
+	transition:0.6s ease-in;
+}
+
+
+/* Pour effet scroll */
+#presentation-section-1 {
+	transition:0.8s ease-in;
+	margin-top:20px;
+	
+}
+
+#presentation-section-1 p{
+	transition:3s ease-in;
+}
+
+
+#presentation-block .container{
+	width:90%;
+}
+
+#presentation{
+	padding:4rem 0;
+	
+}
+
+#presentation p {
+max-width:400px !important;
+}
+
+#presentation h2{
+	margin-top:6rem;
+	margin-bottom:6rem;
+}
+
+#gourmand{
+	font-size:2rem;
+	border:3px solid black;
+	padding-top:5%;
+	
+	z-index:4;
+	display:block;
+	position:relative;
+}
+
+
+
+/* présentation section 2 */
+#presentation-section-2{
+	margin-top:2.4rem;
+	transition:1.4s ease-in;
+}
+
+#presentation-section-2 div{
+	transition:1.8s ease-in;
+}
+
+
+#presentation-section-2-small img{
+	margin-right:4rem;
+}
+
+#img_11{
+	max-width:200% !important;
+	margin-left:-80px;
+}
+
+#img_12{
+	max-width:60% !important;
+}
+
+#img_13{
+	max-width:60% !important;
+}
+
+
+
+
+
+
+
+/* présentation section 3 */
+#presentation-section-3{
+	margin-top:5rem;
+	max-width:87%;
+	transition:1.4s ease-in;
+}
+
+#presentation-section-3 div{
+	transition:1.8s ease-in;
+}
+
+
+#img_9{
+	max-width:100% !important;
+}
+#img_22{
+	max-width:138% !important;
+		margin-left:-95%;
+		margin-top:40%;
+
+}
+#img_11{
+	max-width:100% !important;
+		
+}
+
+
+#presentation-section-3 .block_3 h2{
+	margin-top:3rem;
+	margin-bottom:4rem;
+}
+
+#presentation-section-3 .block_3 p{
+	margin-bottom:3rem;
+	
+}
+
+
+
+/* presentation-section-4*/
+#presentation-section-4{
+	margin-top:5rem;
+	max-width:87%;
+	transition:1.4s ease-in;
+}
+
+#presentation-section-4 div{
+	transition:1.8s ease-in;
+}
+
+
+#img_16{
+
+	
+	
+}
+
+#img_17{
+
+	margin-top:-47px;
+	
+}
+
+#arrow {
+	position:absolute;
+	z-index:4;
+	top:100px;
+	
+	left:220px;
+	width:20%;
+
+}
+
+#img_19{
+
+	width:120%;
+}
+
+
+
+
+/* presentation-section-5*/
+#presentation-section-5{
+	margin-top:5rem;
+	max-width:87%;
+	transition:1.4s ease-in;
+}
+
+#presentation-section-5 div{
+	transition:2s ease-in;
+}
+
+#presentation-section-5 p{
+	margin-top:5rem;
+	max-width:87%;
+}
+
+
+
+/* presentation-section-6*/
+#presentation-section-6{
+	margin-top:5rem;
+	max-width:87%;
+	transition:1.4s ease-in;
+}
+
+#presentation-section-6 div{
+	transition:2s ease-in;
+}
+
+#img_24{
+
+	max-width:120%;
+	margin-left:32%;
+}
+
+#presentation-section-6 .block_1 p{
+	max-width:360px;
+	margin-left:24%;
+	margin-top:2rem;
+}
+
+#presentation-section-6 .block_1 a{
+	margin-left:24%;
+
+}
+
+
+#presentation-section-6 .block_2 p{
+	max-width:300px;
+	margin-left:35%;
+	margin-top:2rem;
+}
+
+#presentation-section-6 .block_2 a {
+	margin-left:33%;
+}
+
+
+
+/* presentation-section-7*/
+#presentation-section-7{
+	margin-top:2rem;
+	max-width:87%;
+	transition:1.4s ease-in;
+	padding-bottom:100px;
+}
+
+#presentation-section-7 div{
+	transition:2s ease-in;
+}
+
+
+
+
+
+
+
+/* --------------------------
+	  PAGE NOS BOUTIQUES
+-----------------------------*/
+
+#main-container{
+	background-color:#D8C9CA;
+}
+
+
+
+.small-link{
+	margin-top:-25rem;
+	padding-bottom:20rem;
+}
+
+.small-link a{
+	color:black;
+	font-size:0.8rem;
+}
+
+.small-link p{
+	color:#878787;
+	font-size:0.8rem;
+}
+
+iframe{
+
+	margin-left:-9%;
+	margin-top:30px;
+}
+
+h2{
+	color:black;
+	padding:30px 0px;
+}
+
+#iframe {
+	padding-top:40px;
+}
+
+#iframe h2{
+	padding:20px 5px;
+	border:2px solid black;
+	color:black;
+}
+
+.block-boutique {
+	background-color:#B78576;
+	margin-left:-3rem;
+	width:17.4rem;
+	padding:50px 0px;
+	border-radius:7px;
+	color:white;
+}
+
+.block-boutique ul{
+	
+}
+
+#nos-boutiques-france{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------
+			EVENEMENT 
+-----------------------------*/
+
+
+
+
+#evenement h2{
+	margin-top:40px;
+}
+
+#evenement a{
+	font-size:3rem;
+}
+
+
+ #background-evenement{
+	position:absolute;
+ 	width:100%;
+ 	filter:grayscale(0.8);
+	transition:0.4s;
+ }
+
+  #background-evenement:hover{
+ 	filter:grayscale(0);
+ }
+
+
+
+/* --------------------------
+			OFFRES 
+-----------------------------*/
+
+#offres{
+	margin-top:10%;
+	background-color:white;
+	color:black;
+}
+
+#offres h2{
+	margin-top:2%;
+}
+
+
+
+
+/* --------------------------
+			CONTACT 
+-----------------------------*/
+
+#main-footer{
+	height:50vh;
+	color:black;
+	background-color:rgba(152,160,125, 0.7);
+	z-index:5;
+	padding-top:60px;
+}
+
+footer li{
+	font-size:1.5rem;
+}
+
+
+#footer-block1{
+	width:30rem;
+}
+
+#footer-block1 span{
+	text-transform:uppercase;
+}
+
+
+
+#newsletter{
+	background-color:#E2E9EA;
+	padding-top:10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------
+		MEDIA QUERY
+-----------------------------*/
+
+
+
+@media (max-width: 768px){
+	
+	#presentation p {
+		margin-left:20px;
+	}
+
+	/* presentation section 2 */
+	#presentation-section-2-small{
+		display:none;
+	}
+
+	#presentation-section-2 a{
+	
+		margin-left:17%;
+
+	}
+
+
+	#img_11{
+	max-width:60%;
+	margin-left:0;
+	margin-top:50px;
+	}
+
+
+
+	/* presentation section 3 */
+	#presentation-section-3 .col-md-3{
+	margin-left:0rem;
+	margin-top:0rem;
+	}
+
+	#presentation-section-3{
+		
+	}
+
+	#presentation-section-3 .col-md-5{
+	margin-left:0rem;
+	}
+
+	#img_21{
+		display:none;
+	}
+
+	#img_22{
+		display:none;
+	}
+
+
+
+	/* presentation section 4 */
+	#presentation-section-4{
+		
+	}
+
+	#img_16{
+		display:none;
+	}
+
+	#img_17{
+		display:none;
+	}
+
+
+
+	/* presentation section 6 */	
+	#presentation-section-6{
+		
+	}
+
+	#img_24{
+		margin-left:0;
+		max-width:100%;
+		margin-top:30px;
+	}
+
+	#presentation-section-6 .block_2 p{
+		margin-left:0;
+	}
+
+
+	.block-boutique {
+	
+	margin-left:0px;
+	
+
+}
+
+
+	}
+
+
